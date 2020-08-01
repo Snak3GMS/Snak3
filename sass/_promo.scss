@@ -2,4 +2,46 @@
     min-height: 650px;
     padding: 21px 0 93px 0;
     background: url('../img/backgrounds/first_runner.png') center (center/cover) no-repeat;
+    &__header {
+        color: #ffffff;
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 42px;
+        text-transform: uppercase;
+    }
+    &__subheader {
+        margin-top: 12px;
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 24px;
+        text-transform: uppercase;
+    }
+    &__wrapper {
+        margin-top: 90px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    &__icons {
+        display: flex;
+        flex-direction: row;
+        margin-top: 55px;
+        
+    }
+    &__icon {
+        display: flex;
+        flex-direction: column;
+        width: 108px;
+        margin-left: 60px;
+        align-items: center;
+        text-align: center;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 500;
+        & > img {
+            width: 45px;
+            margin-bottom: 20px;
+        }
+    }
 }
