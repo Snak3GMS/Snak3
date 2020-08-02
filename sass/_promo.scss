@@ -44,4 +44,16 @@
             margin-bottom: 20px;
         }
     }
+    &__descr {
+        margin-top: 18px;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 500;
+        & > a {
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 500;
+        text-decoration: underline;
+        }
+    }
 }
