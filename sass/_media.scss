@@ -1,0 +1,115 @@
+@media (max-width: 767px) {}
+@media (max-width: 575px) {
+    .header {
+        &__logo {
+            padding-left: 10px;
+            width: 200px;
+        }
+        &__descr {
+            display: none;
+        }
+        &__contacts {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            padding-right: 10px;
+        }
+    }
+    .btn {
+        width: 150px;
+        height: 45px;
+        font-size: 14px;
+    }
+    .promo {
+        &__header {
+            font-size: 32px;
+            line-height: 32px;
+        }
+        &__subheader {
+            font-size: 18px;
+            line-height: 18px;
+        }
+        &__wrapper {
+            align-items: center;
+        }
+        &__icons {
+            justify-content: space-between;
+            width: 90%;
+        }
+        &__icon {
+            margin-left: 0;
+            & > img {
+                width: 40px;
+                height: 42px;
+
+            }
+        }
+        &__btn {
+            margin-left: 0;
+            width: 275px;
+            height: 70px;
+            font-size: 16px;
+        }
+    }
+    .advantages {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item {
+            margin-top: 50px;
+            &:first-child {
+                margin-top: 0;
+            }
+        }
+    }
+}
+@media (max-width:420px) {
+    .header {
+        &__logo {
+            width: 50%;
+        }
+        &__contacts {
+            width:45%
+        }
+        &__phone {
+            font-size: 14px;
+        }
+    }
+    .btn {
+        width: 90%;
+        height: 30px;
+        font-size: 10px;
+    }
+    .promo {
+        min-height: 500px;
+        padding-bottom: 60px;
+        &__wrapper {
+            margin-top: 60px;
+        }
+        &__header {
+            font-size: 23px;
+            line-height: 23px;
+        }
+        &__subheader {
+            font-size: 14px;
+            line-height: 14px;
+            margin-top: 0;
+        }
+        &__icons {
+            margin-top: 40px;
+        }
+        &__icon {
+            font-size: 10px;
+            line-height: 12px;
+        }
+        &__btn {
+            margin-top: 30px;
+            height: 50px;
+        }
+        &__descr>a {
+            font-size: 12px;
+            line-height: 12px;
+        }
+    }
+}
