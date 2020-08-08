@@ -49,6 +49,10 @@
             width: 275px;
             height: 70px;
             font-size: 16px;
+            &:active {
+                height: 67px;
+                margin-top: 68px;
+            }
         }
     }
     .advantages {
