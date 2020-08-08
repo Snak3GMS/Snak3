@@ -31,3 +31,14 @@
         height: 47px;
     }
 }
+.consultation__btn {
+    margin-left: 0;
+    margin-top: 20px;
+    width: 300px;
+    height: 55px;
+    font-size: 16px;
+    &:active {
+        margin-top: 23px;
+        height: 52px;
+    }
+}

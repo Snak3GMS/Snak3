@@ -1,3 +1,42 @@
-.title__left {
+.title_left {
     text-align: left;
+    font-size: 36px;
+    font-weight: 500;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+.consultation {
+    min-height: 680px;
+    padding: 100px 5px 92px 5px;
+    background: url('../img/backgrounds/second_shoe.png') center (center/cover) no-repeat;
+    &__descr {
+        margin-top: 75px;
+        font-size: 20px;
+        font-weight: 300;
+        text-align: left;
+        color: #ffffff;
+        line-height: 22px;
+    } 
+    &__form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 36px;
+        input[required] {
+            width: 300px;
+            height: 50px;
+            border: none;
+            outline: none;
+            border-radius: 5px;
+            background-color: #ffffff;
+            font-size: 14px;
+            font-weight: 300;
+            text-align: left;
+            color: #4b4b4b;
+            margin-top: 15px;
+            &:first-child {
+                margin-top: 0;
+            }
+        }
+    }
 }
