@@ -104,6 +104,9 @@
         }
         &__btn {
             height: 50px;
+            &:active {
+                height: 47px;
+            }
         }
         &__descr>a {
             font-size: 12px;
