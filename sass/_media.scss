@@ -1,4 +1,17 @@
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+    .advantages {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item {
+            margin-top: 50px;
+            &:first-child {
+                margin-top: 0;
+            }
+        }
+    }
+}
 @media (max-width: 575px) {
     .header {
         &__logo {
@@ -55,18 +68,6 @@
             }
         }
     }
-    .advantages {
-        &__wrapper {
-            flex-direction: column;
-            align-items: center;
-        }
-        &__item {
-            margin-top: 50px;
-            &:first-child {
-                margin-top: 0;
-            }
-        }
-    }
 }
 @media (max-width:420px) {
     .header {
@@ -111,6 +112,12 @@
         &__descr>a {
             font-size: 12px;
             line-height: 12px;
+        }
+    }
+    .advantages{
+        &__header {
+            font-size: 25px;
+            line-height: 25px;
         }
     }
 }

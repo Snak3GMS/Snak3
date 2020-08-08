@@ -1,5 +1,5 @@
 .promo {
-    min-height: 650px;
+    min-height: 600px;
     padding: 21px 0 93px 0;
     background: url('../img/backgrounds/first_runner.png') center (center/cover) no-repeat;
     &__header {
@@ -51,10 +51,13 @@
         font-size: 16px;
         font-weight: 500;
         & > a {
-        color: #ffffff;
-        font-size: 16px;
-        font-weight: 500;
-        text-decoration: underline;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 500;
+            text-decoration: underline;
+            &:focus {
+                text-decoration: none;
+            }
         }
     }
 }
