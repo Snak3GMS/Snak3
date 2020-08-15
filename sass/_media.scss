@@ -17,6 +17,11 @@
             line-height: 28px;
         }
     }
+    .carousel {
+        &__inner {
+            max-width: 95%;
+        }
+    }
 }
 @media (max-width: 596px) {
     .header {
@@ -110,6 +115,11 @@
     }
 }
 @media (max-width:420px) {
+    .carousel {
+        &__inner {
+            max-width: 95%;
+        }
+    }
     .header {
         &__logo {
             width: 50%;
