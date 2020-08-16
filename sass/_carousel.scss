@@ -29,12 +29,14 @@
         width: 100%;
         display: flex;
         justify-content: center;
+        
       }
     .my-dots li{
         list-style: none;
         margin-right: 10px;
         &.slick-active button{
             background-color: rgb(235, 235, 235);
+            transition: all 0.5s;
         }
         &:last-child{
             margin-right: 0;
