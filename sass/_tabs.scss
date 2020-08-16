@@ -54,7 +54,7 @@
         #tab-btn-1:checked+label,
         #tab-btn-2:checked+label,
         #tab-btn-3:checked+label{
-            border: none;
+            border-color:rgb(245, 0, 0);
             background-color:rgb(245, 0, 0);
             &>div {
                 color: #fff;
