@@ -113,6 +113,17 @@
             }
         }
     }
+    .tabs{
+        &__btn {
+            label{
+                max-width:100px;
+                .label__border {
+                    font-size: 11px;
+                    line-height: 10px;
+                }
+            }
+        }
+    }
 }
 @media (max-width:420px) {
     .carousel {

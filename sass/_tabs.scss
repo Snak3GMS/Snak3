@@ -1,0 +1,69 @@
+.tabs {
+    padding-bottom: 103px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__content { 
+        min-width: 50vw;
+        &>div  {  /* Скрыть табы */
+        display: none;
+        padding: 10px 15px;
+        font-size: 16px;
+        text-align: left;
+        margin-top: 60px;
+        }
+        .descr-1{
+            color:#000
+        }
+        .descr-2, .descr-3 {
+            img {
+                display: block;
+                margin: 0 auto;
+                width: 95%;
+            }
+        }
+    }
+    &__btn{
+        margin-top: 55px;
+        text-align: center;
+        &>input[type="radio"] {
+        display: none;
+        }
+        
+        label {
+            display: inline-block;
+            width: 180px;
+            height: 50px;
+            border: 2px solid #d0d0d0;
+            transform: skewX(-20deg);
+            padding: 16px 0 16px 0;
+            cursor: pointer;
+            &:hover {
+                background-color: rgb(209, 209, 209);
+            }
+            &>.label__border {
+                transform: skewX(20deg);
+                color: #6b6b6b;
+                font-size: 18px;
+                line-height: 18px;
+                font-weight: 400;
+                text-transform: uppercase;
+                text-align: center;
+            }
+        }
+        #tab-btn-1:checked+label,
+        #tab-btn-2:checked+label,
+        #tab-btn-3:checked+label{
+            border: none;
+            background-color:rgb(245, 0, 0);
+            &>div {
+                color: #fff;
+            }
+        }
+    }
+    &__btn>#tab-btn-1:checked~&__content>.descr-1,
+    &__btn>#tab-btn-2:checked~&__content>.descr-2,
+    &__btn>#tab-btn-3:checked~&__content>.descr-3{
+        display: block;
+    }
+}

@@ -35,7 +35,7 @@
         list-style: none;
         margin-right: 10px;
         &.slick-active button{
-            background-color: rgb(235, 235, 235);
+            background-color: rgb(187, 187, 187);
             transition: all 0.5s;
         }
         &:last-child{
@@ -49,6 +49,6 @@
         outline: none;
         height: 6px;
         width: 25px;
-        background-color: rgb(187, 187, 187);
+        background-color: rgb(230, 230, 230);
       }
 }
